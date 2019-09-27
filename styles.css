@@ -1,0 +1,60 @@
+body{
+    font-family: Avenir;
+}
+
+.header{
+    height:2000px;
+    background-color: pink;
+    color:grey;
+    padding: 200px;
+}
+
+.header h1{
+    font-size:60px;
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+}
+.header p{
+    color:grey;
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 600px;
+}
+
+.video{
+    width: 640px;
+    height: 390px;
+    background-color: black;
+
+  
+}
+
+.video.play{
+    background-color: aquamarine;
+}
+.footer{
+    background-color: #DAE0DE;
+    height: 1200px;
+    padding: 300px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cuadrado{
+    width: 150px;
+    height: 150px;
+    background-color: burlywood;
+    
+}
