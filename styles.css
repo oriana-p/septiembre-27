@@ -1,0 +1,39 @@
+body{
+    font-family: Avenir;
+}
+
+.header{
+    height: 2000px;
+    background-color: pink;
+    color: gray;
+    padding: 200px;
+}
+
+
+.header h1{
+    color: grey;
+    max-width: 500px;
+    font-size: 60px;
+    text-align: center;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.video{
+    width: 640px;
+    height: 390px;
+    background-color: #2D2D2D;
+}
+
+.footer{
+    background-color: #ccc;
+    height: 1200px;
+}
+
+
+
