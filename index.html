@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Ejercicios Scroll</title>
 </head>
 <body>
@@ -16,7 +17,17 @@
     <div class="body">
         <div class="video" id="video"></div>
     </div>
-    <footer class="footer"></footer>
+    <footer class="footer">
+    <div class="cuadrados" data-aos="zoom-in-up" data-aos-duration="400" data-aos-delay="1000"></div>
+    <div class="cuadrados" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="400"></div>
+    <div class="cuadrados" data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="1400"></div>
+    </footer>
     <script src="script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
 </body>
 </html>
